@@ -10,7 +10,7 @@ cp -rp /media/cdrom0 /tmp
 ```
 Then you can change over to the `/tmp/cdrom0/kmods` directory, download the patch file and unarchive the `prl_mod.tar.gz` file. 
 ```bash
-wget https://raw.githubusercontent.com/whois-sin/parallels-guest-tools-fix/main/parallels-tools-17.1.4.51567.fixes.txt; tar -zxvf prl_mod.tar.gz
+wget https://raw.githubusercontent.com/whois-sin/parallels-guest-tools-deb-5.18-fix/main/parallels-tools-17.1.4.51567.fixes.txt; tar -zxvf prl_mod.tar.gz
 ```
 Next, once you've confirmed the `parallels-tools-17.1.4.51567.fixes.txt` file is in the current directory, you can apply the patch by using the following command:
 ```bash
