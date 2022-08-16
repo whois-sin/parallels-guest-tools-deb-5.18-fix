@@ -16,7 +16,7 @@ Next, once you've confirmed the `parallels-tools-17.1.4.51567.fixes.txt` file is
 ```bash
 patch -p1 < parallels-tools-17.1.4.51567.fixes.txt
 ```
-Press **enter** twice and then remove bothe the `parallels-tools-17.1.4.51567.fixes.txt` and the `prl_mod.tar.gz` before archiving the files again. 
+Press **enter** twice and then remove both the `parallels-tools-17.1.4.51567.fixes.txt` and the `prl_mod.tar.gz` before archiving the files again. 
 ```bash
 rm parallels-tools-17.1.4.51567.fixes.txt prl_mod.tar.gz
 ```
